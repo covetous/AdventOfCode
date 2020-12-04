@@ -13,7 +13,7 @@ def partOne(expense_file: str):
         result = i * result
     return result
     
-def read_file(expense_file)
+def read_file(expense_file):
     file_object = open(expense_file, 'r')
     return list(map(int, file_object.readlines()))
 
